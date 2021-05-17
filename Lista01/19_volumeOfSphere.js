@@ -1,7 +1,7 @@
 const input = require('prompt-sync')();
 
 // Input
-let radius = input('Informe o raio da esfera: ');
+let radius = Number(input('Informe o raio da esfera: '));
 
 // Process
 let volume = (4 * 3.14 * radius**3)/3;

@@ -1,7 +1,7 @@
 const input = require('prompt-sync')();
 
 // Input
-let side = input('Lado do quadrado: ');
+let side = Number(input('Lado do quadrado: '));
 
 // Process
 let area = Math.pow(side, 2);

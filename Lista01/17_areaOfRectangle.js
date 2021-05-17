@@ -1,8 +1,8 @@
 const input = require('prompt-sync')();
 
 // Input
-let base = input('Base do retângulo: '),
-    height = input('Altura do retângulo: ');
+let base = Number(input('Base do retângulo: ')),
+    height = Number(input('Altura do retângulo: '));
 
 // Process
 let area = base * height;

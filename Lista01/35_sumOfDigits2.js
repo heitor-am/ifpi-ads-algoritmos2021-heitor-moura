@@ -4,7 +4,7 @@ const input = require('prompt-sync')();
 let number = input('Digite um número inteiro (4 dígitos): ');
 
 // Process
-if (Number.isInteger(Number(number))) {
+if (Number.isInteger(+number)) {
   let sumOfDigits = Number(number[0]) + Number(number[1]) + Number(number[2]) + Number(number[3]);
 
   // Output

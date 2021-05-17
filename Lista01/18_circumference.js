@@ -1,7 +1,7 @@
 const input = require('prompt-sync')();
 
 // Input
-let radius = input('Informe o raio da circunferência: ');
+let radius = Number(input('Informe o raio da circunferência: '));
 
 // Process
 let length = 2 * 3.14 * radius;
