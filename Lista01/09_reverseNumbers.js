@@ -1,8 +1,7 @@
 const input = require('prompt-sync')();
 
 // Input
-let number1 = Number(input('Digite o primeiro número: ')),
-    number2 = Number(input('Digite o segundo número: '));
+let number = input('Digite 2 números (A, B): ');
 
 // Output
-console.log(`-----\nResultado: (${number2},${number1})`);
+console.log(`-----\nResultado: (${number.split('').reverse().join('')})`);
