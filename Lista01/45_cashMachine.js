@@ -1,3 +1,4 @@
+// Include the prompt-sync module
 const input = require('prompt-sync')();
 
 // Input
@@ -13,4 +14,4 @@ let billsOf50 = Math.trunc(value / 50),
 console.log(`-----\nNotas de R$50: ${billsOf50}`);
 console.log(`Notas de R$10: ${billsOf10}`);
 console.log(`Notas de R$5: ${billsOf5}`);
-console.log(`Notas de R$2: ${billsOf1}`);
+console.log(`Notas de R$1: ${billsOf1}`);
