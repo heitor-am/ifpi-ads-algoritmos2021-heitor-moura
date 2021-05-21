@@ -1,3 +1,4 @@
+// Include the prompt-sync module
 const input = require('prompt-sync')();
 
 // Input
@@ -6,10 +7,10 @@ let years = Number(input('Informe a quantidade de anos desde começou a fumar: '
   quantify = Number(input('Informe o n° de cigarros fumados por dia: '));
 
 // Process
-let quantifyPerDay = Math.trunc(quantify/20);
-if (quantify%20 > 0) quantifyPerDay++;
+let quantifyPerDay = Math.trunc(quantify / 20);
+if (quantify % 20 > 0) quantifyPerDay++;
 
-let totalSpend = years*360 * (price*(quantifyPerDay));
+let totalSpend = (years * 365) * (price * quantifyPerDay);
 
 // Output
 console.log(`-----\nGasto total: R$${totalSpend.toFixed(2)}`);
