@@ -1,7 +1,8 @@
+// Include the prompt-sync module
 const input = require('prompt-sync')();
 
 // Input
 let length = Number(input('Informe o valor em quilômetros: '));
 
 // Output
-console.log(`-----\nEquivalente em metros: ${length*1000}`);
+console.log(`-----\nEquivalente em metros: ${length * 1000}`);
