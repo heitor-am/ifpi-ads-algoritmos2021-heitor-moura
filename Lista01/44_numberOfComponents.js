@@ -1,3 +1,4 @@
+// Include the prompt-sync module
 const input = require('prompt-sync')();
 
 // Input
