@@ -1,12 +1,13 @@
+// Include the prompt-sync module
 const input = require('prompt-sync')();
 
 // Input
-let [a, b, c] = input('Informe três números inteiros positivos (A, B, C): ').split(',');
+let [a, b, c] = input('Informe três números inteiros positivos (A, B, C): ').split(',').map(value => Number(value));
 
 // Process
-if (Number.isInteger(+a) && Number.isInteger(+b) && Number.isInteger(+c)) {
-  let r = (Number(a) + Number(b))**2;
-  s = (Number(b) + Number(c))**2;
+if (Number.isInteger(a) && Number.isInteger(b) && Number.isInteger(c)) {
+  let r = (a + b) ** 2;
+  s = (b + c) ** 2;
   d = (r + s) / 2;
 
   // Output
