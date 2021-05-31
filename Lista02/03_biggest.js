@@ -2,7 +2,7 @@
 const input = require('prompt-sync')();
 
 function main() {
-  console.log('### Maior ###');
+  console.log('### Maior ###\n');
 
   // Read the user's input
   let n1 = Number(input('Informe o 1° número: ')),
@@ -12,18 +12,12 @@ function main() {
   let result = biggest(n1, n2);
 
   // Output
-  console.log(result);
+  console.log(`\nMaior: ${result}`);
 }
 
 main();
 
 // Check the biggest among the numbers read
 function biggest(a, b) {
-  if (a > b) {
-    return `Maior: ${a}`;
-  } else if (a < b) {
-    return `Maior: ${b}`;
-  } else {
-    return 'Os números são iguais!';
-  }
+  return (a > b) ? a : b;
 }
