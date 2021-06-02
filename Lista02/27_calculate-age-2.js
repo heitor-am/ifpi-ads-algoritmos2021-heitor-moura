@@ -12,6 +12,7 @@ function main() {
     birthMonth = Number(input('Mês de nascimento: ')),
     birthYear = Number(input('Ano de nascimento: '));
 
+  // Calculate the age
   let years = calculateAge(day, month, year, birthDay, birthMonth, birthYear),
   months = Math.abs(month - birthMonth),
   days = (day > birthDay) ? day : (day + 30) - birthDay;
