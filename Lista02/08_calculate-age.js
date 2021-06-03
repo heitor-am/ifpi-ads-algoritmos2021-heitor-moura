@@ -16,7 +16,7 @@ function main() {
   let result = calculateAge(day, month, year, birthDay, birthMonth, birthYear);
 
   // Output
-  console.log(`\nIdade: ${result}`)
+  console.log(`\nIdade: ${result}`);
 }
 
 main();
