@@ -8,8 +8,8 @@ function main() {
   let name = input('Informe o nome do vendedor: '),
     totalSales = Number(input('Informe o valor total de vendas dele no mês: '));
 
-  let salary = 1100,
-    commission;
+  let salary = 1100;
+  let commission;
 
   // Initialize the value of each range to 0
   let [rangeA, rangeB, rangeC, rangeD] = [0, 0, 0, 0]
