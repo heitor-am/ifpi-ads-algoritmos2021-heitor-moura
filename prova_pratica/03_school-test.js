@@ -12,8 +12,8 @@ function main() {
     activities = Number(input('Informe a nota das atividades: '));
 
   // Process
-  let average = calculateAverage(grade1, grade2, activities),
-    result;
+  let average = calculateAverage(grade1, grade2, activities);
+  let result;
 
   if (average >= 7) {
     result = 'Aprovado!';
@@ -30,7 +30,7 @@ function main() {
   }
 
   // Output
-  console.log(`\nSituação do aluno ${name}: ${result}`)
+  console.log(`\nSituação do aluno ${name}: ${result}`);
   console.log(`Média final: ${average.toFixed(2)}`);
 }
 
