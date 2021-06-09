@@ -3,7 +3,7 @@ const input = require('prompt-sync')();
 
 function main() {
   console.log('### Serasa Score ###\n');
-  console.log('OBS: Só digite valores entre 0 e 100!')
+  console.log('OBS: Só digite valores entre 0 e 100!');
 
   // Read the user's input
   let a = Number(input('Informe o valor do critério A: ')),
