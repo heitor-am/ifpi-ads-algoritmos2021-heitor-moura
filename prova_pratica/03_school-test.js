@@ -3,7 +3,7 @@ const input = require('prompt-sync')();
 
 function main() {
   console.log('### Avaliação Escolar ###\n');
-  console.log('OBS: Só digite notas entre 0 e 10!')
+  console.log('OBS: Só digite notas entre 0 e 10!');
 
   // Read the user's input
   let name = input('Nome do aluno: '),
