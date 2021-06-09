@@ -9,8 +9,8 @@ function main() {
     average14DaysAgo = Number(input('Informe a média de casos de 14 dias atrás: '));
 
   // Process
-  let variation = calculateVariation(averageToday, average14DaysAgo),
-    situation;
+  let variation = calculateVariation(averageToday, average14DaysAgo);
+  let situation;
 
   if (Math.abs(variation) < 15) {
     situation = 'Em estabilidade!';
