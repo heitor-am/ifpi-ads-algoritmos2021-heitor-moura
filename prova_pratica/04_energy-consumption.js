@@ -15,11 +15,11 @@ function main() {
     tariff = calculateTariff(consumption);
 
   // Calculate the taxes on the tariff
-  let icms = (tariff * 0.25),
-    pisConfis = (tariff * 0.15),
+  let icms = tariff * 0.25,
+    pisConfis = tariff * 0.15,
     illuminationTax = 0;
 
-  if (consumption > 80) illuminationTax = (tariff * 0.06);
+  if (consumption > 80) illuminationTax = tariff * 0.06;
 
   tariff += icms + pisConfis + illuminationTax + flagsValue;
 
