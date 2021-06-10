@@ -21,11 +21,12 @@ function main() {
 
   if (consumption > 80) illuminationTax = tariff * 0.06;
 
-  tariff += icms + pisConfis + illuminationTax + flagsValue;
+  // Calculate the total
+  let total = tariff + icms + pisConfis + illuminationTax + flagsValue;
 
   // Output
   console.log(`\nConsumo: ${consumption}KWh`);
-  console.log(`Valor faturado: R$${tariff.toFixed(2)}`);
+  console.log(`Valor faturado: R$${total.toFixed(2)}`);
   console.log(`Bandeira: R$${flagsValue.toFixed(2)} - ${flags} bandeira(s)`);
   console.log(`ICMS: R$${icms.toFixed(2)}`);
   console.log(`PIS/CONFIS: R$${pisConfis.toFixed(2)}`);
