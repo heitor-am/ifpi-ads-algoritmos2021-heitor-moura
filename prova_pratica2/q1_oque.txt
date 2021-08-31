@@ -1,0 +1,7 @@
+1. Pensamento Computacional = nos permite pegar um problema complexo, entendê-lo e desenvolver possíveis soluções. Podemos então apresentar essas soluções de uma forma que um computador, um ser humano ou ambos possam entender.
+
+2. Algoritmo = conjunto das regras e procedimentos lógicos perfeitamente definidos que levam à solução de um problema em um número finito de etapas.
+
+3. Programação = processo de escrita, testes e manutenção de programas de computadores. Esses programas, por sua vez, são compostos por conjuntos de instruções determinados pelo programador que descrevem tarefas a serem realizadas pela máquina e atendem diversas finalidades.
+
+4. Modularização com uso de Funções = modular a construção de nosso software, ou seja, dividir várias partes do sistema em partes menores que possuem tarefas específicas. O uso deste recurso traz muitas vantagens como a reutilização do código, a facilidade de manutenção, melhor legibilidade facilitando a compreensão do código por outros desenvolvedores, entre outras.
